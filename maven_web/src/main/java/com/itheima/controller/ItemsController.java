@@ -20,4 +20,10 @@ public class ItemsController {
         model.addAttribute("item",item);
         return "itemDetail";
     }
+
+    public Integer test(){
+        int i= 10 ;
+        i +=  10 ;
+        return i;
+    }
 }
