@@ -22,7 +22,7 @@ public class ItemsController {
     }
 
     public Integer test(){
-        int i= 10 ;
+        int i= 10 ;//
         i +=  10 ;
         System.out.println(i);
         return i;
